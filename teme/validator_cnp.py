@@ -1,5 +1,5 @@
 
-def analizor_cnp(cnp):
+def validator_cnp(cnp):
     s = cnp[0]
     if s not in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
         return False
@@ -41,7 +41,7 @@ def analizor_cnp(cnp):
     return True
 
 cnp = str(input("Introduceti CNP: "))
-if analizor_cnp(cnp):
+if validator_cnp(cnp):
     print("CNP valid")
 else:
     print("CNP invalid")
