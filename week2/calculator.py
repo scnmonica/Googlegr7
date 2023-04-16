@@ -5,7 +5,7 @@ while True:
     operator_2 = input("Adauga al doilea operator: ")
     operatie = input("Alege operatia pe care doresti sa o executi: ")
     if operatie in ['+', '-', '*', '/'] and operator_1.isdigit() and operator_2.isdigit():
-        if int(operator_2) != 0 and operatie =='/':
+        if int(operator_2) == 0 and operatie =='/':
             print("Impartirea la 0 nu este permisa")
             continue
         if operatie == '+':
