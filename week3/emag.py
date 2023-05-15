@@ -23,3 +23,5 @@ for i in date:
     except (exceptions.StaleElementReferenecException, exceptions.NoSuchElementException):
         pass
 time.sleep(10)
+
+
